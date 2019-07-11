@@ -4,7 +4,7 @@ import subprocess
 
 
 s = socket.socket()
-host = '192.168.43.13'
+host = '192.168.43.13' #Enter the ip of server computer
 port = 8080
 s.connect((host, port))
 
